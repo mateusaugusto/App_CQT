@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_row_selector"
+    android:padding="8dp">
+
+    <!-- Thumbnail Image -->
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/thumbnail"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="8dp" />
+
+    <!-- Nome festa-->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/thumbnail"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:textSize="@dimen/title"
+        android:textStyle="bold" />
+
+
+    <!-- local -->
+    <TextView
+        android:id="@+id/local"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_marginTop="53dip"
+        android:layout_toRightOf="@+id/thumbnail"
+         />
+
+
+    <!-- descricao -->
+    <TextView
+        android:id="@+id/descricao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_marginTop="12dip"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:textSize="@dimen/rating"
+        />
+
+    <!-- postagens -->
+    <TextView
+        android:id="@+id/msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_marginTop="12dip"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:textSize="@dimen/rating"
+
+        />
+
+
+
+
+    <!-- data -->
+    <TextView
+        android:id="@+id/data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="105dip"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/year"
+        android:textSize="@dimen/year"
+ />
+
+</RelativeLayout>

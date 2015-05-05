@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="C:\wamp\www\Dropbox\TCC\App\cqt\cqt\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-09394e27ee67bb869d7303409584027d31c6ffcf.jar"
+        jar="C:\Users\Mateus\AppData\Local\Android\android-studio\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67"/>
+    <item
+        dex="C:\wamp\www\Dropbox\TCC\App\cqt\cqt\app\build\intermediates\pre-dexed\debug\classes-ee50127cee1e8fb671bab2b41490301cf724774b.jar"
+        jar="C:\wamp\www\Dropbox\TCC\App\cqt\cqt\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.1.0\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28"/>
+    <item
+        dex="C:\wamp\www\Dropbox\TCC\App\cqt\cqt\app\build\intermediates\pre-dexed\debug\volley-d339177c2da602ee720b5c9e1869daa486604d5b.jar"
+        jar="C:\wamp\www\Dropbox\TCC\App\cqt\cqt\app\libs\volley.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="d4aaa36e04ee71a83444f8367c97a46fda662d2c"/>
+
+</pre-dex-items>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+    >
+
+     <ListView android:id="@+id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:transcriptMode="alwaysScroll"
+        android:cacheColorHint="#00000000"
+        android:listSelector="@android:color/transparent"/>
+
+
+    <LinearLayout android:id="@+id/footer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="bottom">
+
+        <EditText android:inputType="textMultiLine|textNoSuggestions"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText"
+            android:layout_weight="1"/>
+
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/send_button"
+            android:src="@drawable/ic_action_send_now"
+           />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_action_refresh"
+            android:id="@+id/refresh" />
+
+    </LinearLayout>
+</LinearLayout><!-- From: file:/C:/wamp/www/Dropbox/TCC/App/cqt/cqt/app/src/main/res/layout/activity_main_chat.xml -->
